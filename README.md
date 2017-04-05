@@ -1,7 +1,5 @@
 Genome-Wide Nucleosome Positioning using High-Throughput Short-Read Data (MNase-Seq)
 
-==============================================================
-
 [![Build Status](https://travis-ci.org/ArnaudDroitLab/RJMCMCNucleosomes.svg?branch=master)](https://travis-ci.org/ArnaudDroitLab/RJMCMCNucleosomes)
 [![codecov](https://codecov.io/gh/ArnaudDroitLab/RJMCMCNucleosomes/branch/master/graph/badge.svg)](https://codecov.io/gh/ArnaudDroitLab/RJMCMCNucleosomes)
 
