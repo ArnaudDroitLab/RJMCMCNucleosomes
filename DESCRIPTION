@@ -2,30 +2,49 @@ Package: RJMCMCNucleosomes
 Version: 0.99.13
 Date: 2015-05-01
 Title: Bayesian hierarchical model for genome-wide nucleosome
-        positioning with high-throughput short-read data (MNase-Seq)
+    positioning with high-throughput short-read data (MNase-Seq)
 Description: This package does nucleosome positioning using informative
-        Multinomial-Dirichlet prior in a t-mixture with reversible jump
-        estimation of nucleosome positions for genome-wide profiling.
+    Multinomial-Dirichlet prior in a t-mixture with reversible jump
+    estimation of nucleosome positions for genome-wide profiling.
 Authors@R: c(person("Pascal", "Belleau",
-        email="pascal.belleau@crchuq.ulaval.ca", role=c("aut")),
-        person("Rawane", "Samb", email="rawane.samb.1@ulaval.ca",
-        role=c("aut")), person("Astrid", "Deschênes",
-        email="Astrid-Louise.Deschenes@crchudequebec.ulaval.ca",
-        role=c("cre","aut")), person("Khader", "Khadraoui",
-        email="Khader.Khadraoui@mat.ulaval.ca", role=c("aut")),
-        person("Lajmi", "Lakhal-Chaieb",
-        email="Lajmi.Lakhal@mat.ulaval.ca;", role=c("aut")),
-        person("Arnaud", "Droit",
-        email="arnaud.droit@crchuq.ulaval.ca", role=c("aut")))
-Depends: R (>= 3.4), IRanges, GenomicRanges
-Imports: Rcpp (>= 0.12.5), consensusSeekeR, BiocGenerics, GenomeInfoDb,
-        S4Vectors, BiocParallel, stats, graphics, methods, grDevices
-Suggests: BiocStyle, knitr, rmarkdown, nucleoSim, RUnit
+    email="pascal_belleau@hotmail.com", role=c("aut")),
+    person("Rawane", "Samb",
+    email="rawane.samb.1@ulaval.ca", role=c("aut")),
+    person("Astrid", "Deschênes",
+    email="adeschen@hotmail.com",
+    role=c("cre","aut")),
+    person("Khader", "Khadraoui",
+    email="Khader.Khadraoui@mat.ulaval.ca", role=c("aut")),
+    person("Lajmi", "Lakhal-Chaieb",
+    email="Lajmi.Lakhal@mat.ulaval.ca;", role=c("aut")),
+    person("Arnaud", "Droit",
+    email="arnaud.droit@crchuq.ulaval.ca", role=c("aut")))
+Depends:
+    R (>= 3.4),
+    IRanges,
+    GenomicRanges
+Imports:
+    Rcpp (>= 0.12.5),
+    consensusSeekeR,
+    BiocGenerics,
+    GenomeInfoDb,
+    S4Vectors,
+    BiocParallel,
+    stats,
+    graphics,
+    methods,
+    grDevices
+Suggests:
+    BiocStyle,
+    knitr,
+    rmarkdown,
+    nucleoSim,
+    RUnit
 LinkingTo: Rcpp
 SystemRequirements: Rcpp
 Encoding: UTF-8
 License: Artistic-2.0
 VignetteBuilder: knitr
 biocViews: BiologicalQuestion, ChIPSeq, NucleosomePositioning,
-        Software, StatisticalMethod, Bayesian
+    Software, StatisticalMethod, Bayesian, Sequencing, Coverage
 RoxygenNote: 6.0.1
