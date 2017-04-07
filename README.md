@@ -1,4 +1,5 @@
 Genome-Wide Nucleosome Positioning using High-Throughput Short-Read Data (MNase-Seq)
+=====================
 
 [![Build Status](https://travis-ci.org/ArnaudDroitLab/RJMCMCNucleosomes.svg?branch=master)](https://travis-ci.org/ArnaudDroitLab/RJMCMCNucleosomes)
 [![codecov](https://codecov.io/gh/ArnaudDroitLab/RJMCMCNucleosomes/branch/master/graph/badge.svg)](https://codecov.io/gh/ArnaudDroitLab/RJMCMCNucleosomes)
@@ -60,11 +61,7 @@ See [AD Lab](http://compbio.ulaval.ca/ "AD Lab") website.
 
 ## License ##
 
-<<<<<<< HEAD
-This package and the underlying RJMCMCNucleosomes code are distributed under the 
-=======
 This package and the underlying _RJMCMCNucleosomes_ code are distributed under the 
->>>>>>> master
 Artistic license 2.0. You are free to use and redistribute this software. 
 
 For more information on Artistic 2.0 License see
