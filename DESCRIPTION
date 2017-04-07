@@ -44,6 +44,8 @@ LinkingTo: Rcpp
 SystemRequirements: Rcpp
 Encoding: UTF-8
 License: Artistic-2.0
+URL: https://github.com/ArnaudDroitLab/RJMCMCNucleosomes
+BugReports: https://github.com/ArnaudDroitLab/RJMCMCNucleosomes/issues
 VignetteBuilder: knitr
 biocViews: BiologicalQuestion, ChIPSeq, NucleosomePositioning,
     Software, StatisticalMethod, Bayesian, Sequencing, Coverage
