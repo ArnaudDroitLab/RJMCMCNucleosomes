@@ -21,10 +21,7 @@ addons:
   apt:
     packages:
       - gsl-bin
-      - libgcc1
-      - libc6 
       - libgsl0-dev
-      - libgsl0ldbl
 
 r_github_packages:
    - Bioconductor-mirror/BiocStyle
