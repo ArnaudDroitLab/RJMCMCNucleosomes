@@ -20,6 +20,7 @@ r_check_args: "--no-build-vignettes --no-manual --timings"
 addons:
   apt:
     packages:
+      - gsl
       - libgsl0ldbl
       - libgsl0-dev
 
