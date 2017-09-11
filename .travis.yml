@@ -1,5 +1,6 @@
 language: r
 sudo: required
+dist: precise
 
 # R version
 r: bioc-devel
@@ -22,6 +23,7 @@ addons:
     packages:
       - gsl-bin
       - libgsl0-dev
+      - libgsl0ldbl
 
 r_github_packages:
    - Bioconductor-mirror/BiocStyle
