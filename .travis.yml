@@ -20,10 +20,9 @@ r_check_args: "--no-build-vignettes --no-manual --timings"
 # Package dependencies installed using apt-get
 addons:
   apt:
-    packages:
+    packages: 
       - gsl-bin
       - libgsl0-dev
-      - libgsl0ldbl
 
 r_github_packages:
    - Bioconductor-mirror/BiocStyle
