@@ -1,5 +1,5 @@
 language: r
-sudo: false
+sudo: required
 dist: trusty
 
 # R version
@@ -18,12 +18,8 @@ r_build_args: "--no-manual --no-resave-data --keep-empty-dirs"
 r_check_args: "--no-build-vignettes --no-manual --timings"
 
 # Package dependencies installed using apt-get
-addons:
-  apt:
-    packages: 
+apt_packages: 
       - gsl-bin
-      - libc6
-      - libgcc1
       - libgsl0-dev
       - libgsl0ldbl
 
