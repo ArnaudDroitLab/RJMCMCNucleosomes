@@ -1,6 +1,6 @@
 language: r
 sudo: required
-dist: trusty
+dist: precise
 
 # R version
 r: bioc-release
