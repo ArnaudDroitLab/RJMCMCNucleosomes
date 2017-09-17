@@ -3,7 +3,7 @@ sudo: false
 dist: trusty
 
 # R version
-r: release
+r: bioc-release
 
 # Package caching only makes sense for the release versions.
 cache: packages
